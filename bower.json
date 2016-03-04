@@ -1,0 +1,23 @@
+{
+  "name": "zondezatera.github.io",
+  "description": "",
+  "main": "gulp.js",
+  "authors": [
+    "Z"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/zondezatera/zondezatera.github.io",
+  "moduleType": [
+    "es6",
+    "globals",
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
