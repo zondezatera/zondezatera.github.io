@@ -1,9 +1,9 @@
 {
   "name": "zondezatera.github.io",
   "description": "",
-  "main": "gulp.js",
+  "main": "gulpfile.js",
   "authors": [
-    "Z"
+    "Kitti Pariyaakkarakul"
   ],
   "license": "MIT",
   "homepage": "https://github.com/zondezatera/zondezatera.github.io",

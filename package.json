@@ -2,7 +2,7 @@
   "name": "zondezatera.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "gulp.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/zondezatera/zondezatera.github.io.git"
   },
-  "author": "Z",
+  "author": "Kitti Pariyaakkarakul",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zondezatera/zondezatera.github.io/issues"
   },
-  "homepage": "https://github.com/zondezatera/zondezatera.github.io#readme"
+  "homepage": "https://zondezatera.github.io"
 }
