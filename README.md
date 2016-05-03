@@ -1,4 +1,5 @@
 # zondezatera.github.io
 Intro
 ## technology 
-> createjs 
+- Webpack
+- ReactJS
