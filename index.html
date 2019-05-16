@@ -6,7 +6,10 @@
   <title>JS test</title>
 </head>
 <body>
-  <a href="intent://judo-pay?process=success/#Intent;scheme=lqid;package=com.scale360.shopbankuk;end" id="clickTarget">Open in our app</a>
+  <form action="intent://judo-pay?process=success#Intent;scheme=lqid;package=com.scale360.shopbankuk;end" target="_blank">
+    <input type="submit" value="Open App" />
+  </form>
+  <!-- <a href="intent://judo-pay?process=success/#Intent;scheme=lqid;package=com.scale360.shopbankuk;end" id="clickTarget">Open in our app</a>
   <script>
     window.onload = function() {
       var clickTarget = document.getElementById("clickTarget");
@@ -15,7 +18,7 @@
           0, 0, 0, 20, 10, false, false, false, false, 0, null);
       clickTarget.dispatchEvent(fakeMouseEvent);
     };
-  </script>
+  </script> -->
  <script>
   //   const urls = {
   //     deepLink: 'intent://judo-pay?process=success#Intent;scheme=lqid;package=com.scale360.shopbankuk;end',
