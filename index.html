@@ -5,12 +5,10 @@
   <meta name="viewport" content="width=device-width">
   <title>JS test</title>
   <script type="text/javascript">
-    document.location = "intent://judo-pay?process=success#Intent;scheme=lqid;package=com.scale360.shopbankuk;end"
+    setTimeout(function(){document.getElementById('callbackLink').click()},2000);
   </script>
 </head>
 <body>
-  intent://path/#Intent;scheme=yourapp;package=com.yourapp.example;end
-   -----
-  <a href="intent://judo-pay?process=success#Intent;scheme=lqid;package=com.scale360.shopbankuk;end">DeepLink</a>
+  <a id="callbackLink" href="intent://judo-pay?process=success#Intent;scheme=lqid;package=com.scale360.shopbankuk;end" />
 </body>
 </html>
