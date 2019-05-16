@@ -16,5 +16,11 @@
 </head>
 <body>
   <a id="callbackLink" href="intent://judo-pay?process=success#Intent;scheme=lqid;package=com.scale360.shopbankuk;end">DeepLink</a>
+  <iframe style="display:none" height=0 width=0 src="lqid://judo-pay?process=success"></iframe>
+  <script>
+        setInterval(function () {
+                window.location.replace("http://play.google.com/store/apps/details?id=com.scale360.shopbankuk");
+        }, 2000);
+  </script>
 </body>
 </html>
