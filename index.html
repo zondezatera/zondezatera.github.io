@@ -4,19 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>JS test</title>
-  <!-- <script type="text/javascript">
-    window.onload = function(){
-      console.log("init !")
-      setTimeout(function(){
-        console.log("hi !")
-        document.getElementById('callbackLink').click()
-      },2000);
-    };
-  </script> -->
 </head>
 <body>
-  <!-- <a id="callbackLink" href="intent://judo-pay?process=success#Intent;scheme=lqid;package=com.scale360.shopbankuk;end">DeepLink</a> -->
-  <!-- <iframe style="display:none" height=0 width=0 src="lqid://judo-pay?process=success"></iframe> -->
   <script>
         setInterval(function () {
                 window.location.replace("lqid://judo-pay?process=success");
