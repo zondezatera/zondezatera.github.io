@@ -8,16 +8,17 @@
 <body>
   <script>
     const urls = {
-    deepLink: 'intent://judo-pay?process=success#Intent;scheme=lqid;package=com.scale360.shopbankuk;end',
-  };
+      deepLink: 'intent://judo-pay?process=success#Intent;scheme=lqid;package=com.scale360.shopbankuk;end',
+    };
     const isMobile = {
-    android: function() {
-      return /Android/i.test(ua);
+      android: function() {
+       return /Android/i.test(ua);
     },
     ios: function() {
       return /iPhone|iPad|iPod/i.test(ua);
     }
   };
+  console.log('isMobile', isMobile)
   if (isMobile.ios()) {
     iosLaunch();
   } else if (isMobile.android()) {
